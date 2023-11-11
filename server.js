@@ -7,7 +7,7 @@ const connectDB = require('./config/database')
 const homeRoutes = require('./routes/home')
 const todoRoutes = require('./routes/todos')
 
-// MUST have this to run environment files --for secrets
+// MUST have this to run environment files --for secrets --
 require('dotenv').config({path: './config/.env'})
 
 // call function to connect to database
